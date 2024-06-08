@@ -12,7 +12,6 @@ body {
   margin: 0;
 }
 
-
 h1, h2 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -31,12 +30,12 @@ p {
 .sign-up {
   width: 50%;
   padding: 20px;
-  background: #000; /* Changed background color to black */
-  color: white; /* Set text color to white */
+  background: #000;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center content horizontally */
-  justify-content: center; /* Center content vertically */
+  align-items: center;
+  justify-content: center;
 }
 
 .form-wrapper {
@@ -52,6 +51,7 @@ form {
 i{
   color: #fff;
 }
+
 .social-container {
   margin-bottom: 20px;
 }
@@ -65,8 +65,8 @@ button {
   width: 100%;
   margin-bottom: 10px;
   padding: 10px;
-  border: 1px solid #ccc; /* Added border to input and button */
-  border-radius: 5px; /* Added border radius to input and button */
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .background-image {
@@ -97,13 +97,11 @@ button {
   text-decoration: none;
 }
 
-/* Add hover animation to "Forgot Password?" link */
 .forgot-password:hover {
-  text-decoration: underline; /* Underline the link on hover */
+  text-decoration: underline;
 }
 
-/* Add hover animation to login button */
 button:hover {
-  background-color: #333; /* Darken the background color on hover */
-  color: white; /* Change text color to white on hover */
+  background-color: #333;
+  color: white;
 }

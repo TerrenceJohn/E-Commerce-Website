@@ -18,30 +18,30 @@ body, html {
 }
 
 .header {
-  position: fixed; /* Fix the header at the top */
+  position: fixed;
   top: 0;
   width: 100%;
   height: 150px;
   background-color: rgb(0, 0, 0);
   display: flex;
-  justify-content: center; /* Center the header contents */
+  justify-content: center;
   align-items: center;
   z-index: 1;
 }
 
 .search-bar {
-  margin-left: auto; /* Push the search bar to the right */
+  margin-left: auto;
   display: flex;
   align-items: center;
 }
 
 .search-bar input[type="text"] {
   padding: 8px;
-  border-radius: 20px; /* Adjust the value to make it circular */
-  border: none; /* Remove border */
+  border-radius: 20px;
+  border: none;
   width: 500px;
   height: 40px;
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1); /* Create an outline-like shadow */
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
 .search-bar button {
@@ -59,20 +59,20 @@ body, html {
 }
 
 .logo {
-  width: 200px; 
+  width: 200px;
   cursor: pointer;
 }
 
 nav {
   display: flex;
   align-items: center;
-  width: 80%; /* Adjust width as needed */
+  width: 80%;
 }
 
 .nav ul {
   display: flex;
   list-style: none;
-  margin-left: auto; 
+  margin-left: auto;
 }
 
 nav ul li {
@@ -87,23 +87,22 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ff6f61; /* Change color on hover to a light coral color */
+  color: #ff6f61;
 }
 
 .cart-container {
-  position: relative; /* Set position to relative */
+  position: relative;
   width: 100%;
-  max-width: 1000px; /* Set a maximum width for the container */
-  margin: 200px auto 80px; /* Center the container and add space between header and cart */
-  background-color: white; /* Set background color to white */
-  padding: 50px; /* Add some padding to the container */
-  border-radius: 10px; /* Add rounded corners to the container */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  max-width: 1000px;
+  margin: 200px auto 80px;
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .cart-info img {
   max-width: 100px;
-  /* filter: grayscale(100%); */ /* Remove this line to display the image in normal colors */
 }
 
 table {
@@ -112,17 +111,16 @@ table {
 }
 
 table th, table td {
-  text-align: left; /* Align text to the left */
-  padding: 10px; /* Add padding */
+  text-align: left;
+  padding: 10px;
 }
 
 table th {
-  background-color: #f2f2f2; /* Set background color for table headers */
+  background-color: #f2f2f2;
 }
 
 table td input[type="number"] {
-  width: 50px; /* Set width of input field */
-  margin: 0; /* Remove default margin */
+  width: 50px;
 }
 
 td input {
@@ -132,9 +130,9 @@ td input {
 }
 
 .cart-container button {
-  position: absolute; /* Set position to absolute */
-  left: 50%; /* Position the button at 50% from the left */
-  transform: translateX(-50%); /* Center the button horizontally */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: #cc1313;
   color: #fff;
   border: none;

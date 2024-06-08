@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -28,34 +27,34 @@ body, html {
   width: 850px;
   position: absolute;
   bottom: 0;
-  right: 0; /* Ensure the image is anchored to the right side */
+  right: 0;
 }
 
 .header {
-  position: fixed; /* Fix the header at the top */
+  position: fixed;
   top: 0;
   width: 100%;
   height: 150px;
   background-color: rgb(0, 0, 0);
   display: flex;
-  justify-content: center; /* Center the header contents */
+  justify-content: center;
   align-items: center;
   z-index: 1;
 }
 
 .search-bar {
-  margin-left: auto; /* Push the search bar to the right */
+  margin-left: auto;
   display: flex;
   align-items: center;
 }
 
 .search-bar input[type="text"] {
   padding: 8px;
-  border-radius: 20px; /* Adjust the value to make it circular */
-  border: none; /* Remove border */
+  border-radius: 20px;
+  border: none;
   width: 500px;
   height: 40px;
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1); /* Create an outline-like shadow */
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
 .search-bar button {
@@ -80,7 +79,7 @@ body, html {
 nav {
   display: flex;
   align-items: center;
-  width: 80%; /* Adjust width as needed */
+  width: 80%;
 }
 
 .nav ul {
@@ -101,7 +100,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ff6f61; /* Change color on hover to a light coral color */
+  color: #ff6f61;
 }
 
 .category h1 {
@@ -112,24 +111,24 @@ nav ul li a:hover {
 }
 
 .title h4 {
-  font-size: 25px; /* Adjust font size as needed */
-  font-weight: normal; /* Remove bold weight */
+  font-size: 25px;
+  font-weight: normal;
 }
 
 .phrase {
-  padding-top: 20px; /* Adjust the padding value as needed for more space above the phrase */
+  padding-top: 20px;
 }
 
 .title {
   position: absolute;
-  left: 50px; /* Adjust as needed to position it more to the left */
+  left: 50px;
   top: 45%;
   transform: translateY(-50%);
-  color: white; /* Ensure the title stands out against the background */
-  font-size: 35px; /* Adjust as needed */
+  color: white;
+  font-size: 35px;
   font-weight: bold;
-  padding: 20px; /* Optional: Add padding to the entire title section if needed */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add shadow to the text for better readability */
+  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .title button {
@@ -183,9 +182,9 @@ nav ul li a:hover {
   margin: 15px;
   width: calc(28% - 30px);
   box-sizing: border-box;
-  display: flex; /* Add this */
-  flex-direction: column; /* Add this */
-  justify-content: space-between; /* Add this */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -198,10 +197,10 @@ nav ul li a:hover {
   margin: 15px;
   width: calc(28% - 30px);
   box-sizing: border-box;
-  display: flex; /* Add this */
-  flex-direction: column; /* Add this */
-  justify-content: space-between; /* Add this */
-  align-items: center; /* Add this */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -266,7 +265,7 @@ nav ul li a:hover {
   cursor: pointer;
   transition: background-color 0.3s;
   margin: 20px auto 0;
-  align-self: center; /* Add this */
+  align-self: center;
 }
 
 .content button:hover, .content-sup button:hover {
@@ -318,27 +317,26 @@ nav ul li a:hover {
 }
 
 .about {
-  min-height: 100vh; /* Ensure it takes full height of the viewport */
+  min-height: 100vh;
   width: 100%;
   background: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 20px; /* Added padding for better spacing */
+  padding: 40px 20px;
 }
 
 .about .main {
   width: 100%;
-  max-width: 1400px; /* Adjust max-width as needed */
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   align-items: center;
 }
 
 .about img {
-  max-width: 900px; /* Increase the maximum width for the image */
+  max-width: 900px;
 }
-
 
 .about .text h4 {
   font-size: 24px;
@@ -369,26 +367,6 @@ nav ul li a:hover {
 .about .text button:hover {
   background-color: #d32f2f;
 }
-.about .text p {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.about .text button {
-  padding: 15px 30px;
-  font-size: 18px;
-  background-color: #e53935; /* Default background color */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
-}
-
-.about .text button:hover {
-  background-color: black; /* Change background color on hover */
-  color: white; /* Change text color on hover */
-}
 
 .features{
   width: 100%;
@@ -418,8 +396,8 @@ nav ul li a:hover {
 
 .service {
   text-align: center;
-  padding: 25px 10px;
-  border-radius: 5px;
+  padding: 35px 10px;
+  border-radius: 10px;
   font-size: 18px;
   cursor: pointer;
   background: transparent;
