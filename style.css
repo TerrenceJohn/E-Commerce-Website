@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 254, 254);
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+
+h1, h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+}
+
+p {
+  font-family:  "Playfair Display", serif;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.sign-up {
+  width: 50%;
+  padding: 20px;
+  background: #000; /* Changed background color to black */
+  color: white; /* Set text color to white */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+}
+
+.form-wrapper {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form {
+  margin: 0;
+}
+
+i{
+  color: #fff;
+}
+.social-container {
+  margin-bottom: 20px;
+}
+
+.social {
+  margin-right: 10px;
+}
+
+input,
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc; /* Added border to input and button */
+  border-radius: 5px; /* Added border radius to input and button */
+}
+
+.background-image {
+  width: 50%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.additional-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.additional-options label {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.additional-options input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.forgot-password {
+  color: white;
+  text-decoration: none;
+}
+
+/* Add hover animation to "Forgot Password?" link */
+.forgot-password:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+/* Add hover animation to login button */
+button:hover {
+  background-color: #333; /* Darken the background color on hover */
+  color: white; /* Change text color to white on hover */
+}
