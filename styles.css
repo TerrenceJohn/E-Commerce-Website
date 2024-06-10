@@ -320,6 +320,7 @@ nav ul li a:hover {
   min-height: 100vh;
   width: 100%;
   background: white;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -370,7 +371,7 @@ nav ul li a:hover {
 
 .features{
   width: 100%;
-  height: 100vh;
+  height: auto;
   padding: 0 8%;
   box-sizing: border-box;
 }
@@ -433,7 +434,7 @@ nav ul li a:hover {
 }
 
 section {
-  padding: 80px 13% 70px;
+  padding: 40px 13% 35px;
 }
 
 .footer img {
@@ -444,7 +445,8 @@ section {
 .footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-  gap: 3.5rem;
+  padding-top: 100px;
+  gap: 2.5rem;
   background: rgb(0, 0, 0);
 }
 
@@ -454,12 +456,9 @@ section {
   font-size: 20px;
 }
 
-.footer-content ul {
-  padding: 0;
-}
 
 .footer-content li {
-  margin-bottom: 45px;
+  margin-bottom: 30px;
   list-style: none;
 }
 
@@ -481,7 +480,7 @@ section {
   color: #d6d6d6;
   font-size: 16px;
   line-height: 30px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .icons a {
