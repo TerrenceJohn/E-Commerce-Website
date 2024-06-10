@@ -437,17 +437,24 @@ section {
   padding: 40px 13% 35px;
 }
 
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 8%;
+  background: rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+.footer-content {
+  flex: 1 1 200px; 
+  margin: 20px; 
+  min-width: 200px;
+}
+
 .footer img {
   width: 180px;
   height: 180px;
-}
-
-.footer {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-  padding-top: 100px;
-  gap: 2.5rem;
-  background: rgb(0, 0, 0);
 }
 
 .footer-content h4 {
@@ -455,7 +462,6 @@ section {
   margin-bottom: 1.5rem;
   font-size: 20px;
 }
-
 
 .footer-content li {
   margin-bottom: 30px;
